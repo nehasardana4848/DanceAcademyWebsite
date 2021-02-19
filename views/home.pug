@@ -1,0 +1,30 @@
+extends base.pug
+
+block scripts
+     scripts(src='/static/index.js')
+block style
+    style
+      include ../static/style.css
+block content
+    section#introSection 
+            div#item1 Welcome To DANCE ACADEMY
+            div#item2 "When in doubt, Dance it out"
+    section#missionSection 
+        h2 Our Mission
+        div.card#item3
+            h3 Dance Perfection
+           
+        div.card#item4
+          h3 Dance the way you like
+        div.card#item5
+          h3 Expert Teaching
+    section#sponsersSection 
+        h2 Our Sponsors
+        div#sponsors
+          img(src="/static/img/micro.jpg", alt="Sponsor Image", class="spImage")
+          img(src="/static/img/apple.png", alt="Sponsor Image", class="spImage")
+          img(src="/static/img/hp.jfif", alt="Sponsor Image", class="spImage")
+          img(src="/static/img/Skype.png", alt="Sponsor Image", class="spImage")
+
+
+    

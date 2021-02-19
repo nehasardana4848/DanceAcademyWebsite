@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Lemonada:wght@600&display=swap");
+.container{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    height: 82vh;
+    background: center / cover no-repeat url("/static/dance1.jpg");
+    color:whitesmoke;
+    
+}
+h3{
+    font-size: 50px;
+    font-family: 'Lemonada', cursive;
+
+}
