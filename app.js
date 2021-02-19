@@ -4,8 +4,8 @@ const fs=require("fs");
 var fast2sms = require('fast-two-sms');
 const bodyparser = require('body-parser')
 const mongoose = require('mongoose');
-const PUBLISHABLE_KEY="pk_test_51ILqhQJpAJb5irLbUYJ0Vt3OQUDpoJgMuBR8aMFBPocCU5f5SJBGJe2EJsrM7RWUal9NpNnhL7p4oEjz3g6ZYyT200D6SBnbH8"
-const SECRET_KEY="sk_test_51ILqhQJpAJb5irLba1aeFenwgbl5qt4XxJjWDBVJfvUl7B9F2pSwidcJ0G3D6VRJi7wu2l9WwihOGSV9YzbPbczu002P0dSQ3R"
+const PUBLISHABLE_KEY="#"
+const SECRET_KEY="#"
 const stripe=require('stripe')(SECRET_KEY)
 require('dotenv').config();
 mongoose.connect('mongodb://localhost/contactdance', {useNewUrlParser: true, useUnifiedTopology: true});
